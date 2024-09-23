@@ -1,0 +1,67 @@
+.product {
+  border: 1px solid #e0e0e0;
+  /* padding: 20px;
+  margin: 15px; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product .description {
+  margin-bottom: 15px;
+}
+
+.product .description p {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.addToWishlist, .removeFromWishlist {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.addToWishlist {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.addToWishlist:hover {
+  background-color: #218838;
+}
+
+.removeFromWishlist {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.removeFromWishlist:hover {
+  background-color: #c82333;
+}
+
+.addToWishlist:active, .removeFromWishlist:active {
+  transform: scale(0.98);
+}

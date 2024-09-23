@@ -1,0 +1,28 @@
+/* navbar.css */
+.navbar {
+    background-color: #343a40 !important; /* Dark background for the navbar */
+}
+
+.navbar-brand, .nav-link, .navbar-text {
+    color: #ffffff !important; /* White text for better visibility */
+}
+
+.navbar .btn {
+    color: #ffffff !important; /* Ensure button text is visible */
+    border-color: #ffffff !important; /* Ensure button border is visible */
+}
+
+.navbar .form-control {
+    background-color: #ffffff !important; /* Ensure the search bar background is visible */
+    color: #000000 !important; /* Ensure the search bar text is visible */
+}
+
+.navbar .form-control::placeholder {
+    color: #6c757d !important; /* Placeholder color */
+}
+
+.navbar .btn-outline-success {
+    color: #28a745 !important; /* Green color for the search button text */
+    background-color: #ffffff !important; /* White background for the search button */
+    border-color: #28a745 !important; /* Green border for the search button */
+}

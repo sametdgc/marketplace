@@ -1,0 +1,75 @@
+.admin-dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.admin-dashboard .data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.admin-dashboard .data-table th, .admin-dashboard .data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.admin-dashboard .data-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.admin-dashboard .data-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.admin-dashboard .data-table tr:hover {
+  background-color: #ddd;
+}
+
+.admin-dashboard .data-table td button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.admin-dashboard .data-table td button:hover {
+  background-color: #0056b3;
+}
+
+.admin-dashboard input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+.admin-dashboard button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.admin-dashboard button[type="submit"]:hover {
+  background-color: #218838;
+}
